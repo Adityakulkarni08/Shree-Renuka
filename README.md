@@ -1,2 +1,2 @@
-# Shree-Renuka
-Hardware e-commerce app
+# shree-renuka
+website for the electric shop 

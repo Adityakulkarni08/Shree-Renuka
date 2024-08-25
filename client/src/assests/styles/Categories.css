@@ -1,0 +1,95 @@
+.category-filter-box {
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 550px;
+}
+
+.category-filter-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  flex-basis: calc(25% - 20px);
+  text-align: center;
+  margin: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.product-card .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-card .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.product-card .card-text {
+  margin-top: 5px;
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card .card-buttons {
+  display: none;
+}
+
+.product-card:hover .card-buttons {
+  display: flex;
+  justify-content: space-between;
+  position: absolute; /* Add position absolute */
+  bottom: 10px; /* Adjust the desired vertical position */
+  left: 0; /* Adjust the desired horizontal position */
+  width: 100%;
+}
+
+.product-card .card-buttons button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #bbb; /* Set the desired gray color */
+  color: #fff; /* Set the text color to white */
+  border: none; /* Remove the border */
+}
+
+.product-card .card-buttons button:hover {
+  background-color: #888; /* Set the desired hover color */
+}
+
+
+.load-more-button {
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .product-card {
+    flex-basis: calc(50% - 30px);
+  }
+}
