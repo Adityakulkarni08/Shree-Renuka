@@ -1,0 +1,38 @@
+.customer-support {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #333; /* Set the heading color */
+  }
+  
+  .contact-details {
+    margin: 0 auto;
+    font-weight: 500;
+    max-width: 600px;
+    text-align: left;
+    background-color: #f8f8f8; /* Set background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .contact-heading {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Set the heading color */
+  }
+  
+  .contact-info {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555; /* Set the text color */
+  }
+  
+  .contact-line {
+    border-top: 2px solid #333; /* Increase the border width and set a darker color */
+    margin: 20px auto;
+    width: 80%; /* Make the line longer */
+  }
+  

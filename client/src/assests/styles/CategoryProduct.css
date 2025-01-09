@@ -1,0 +1,57 @@
+.new-product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    flex-basis: calc(30% - 20px);
+    text-align: center;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .new-product-card .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .new-product-card .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .new-product-card .card-text {
+    margin-top: 5px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .new-product-card .card-buttons {
+    display: none;
+  }
+  
+  .new-product-card:hover .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute; /* Add position absolute */
+    bottom: 10px; /* Adjust the desired vertical position */
+    left: 0; /* Adjust the desired horizontal position */
+    width: 100%;
+  }
+  
+  .new-product-card .card-buttons button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #bbb; /* Set the desired gray color */
+    color: #fff; /* Set the text color to white */
+    border: none; /* Remove the border */
+  }
+  
+  .new-product-card .card-buttons button:hover {
+    background-color: #888; /* Set the desired hover color */
+  }
+  
+  

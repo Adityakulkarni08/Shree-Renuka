@@ -1,0 +1,63 @@
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .search-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    flex-basis: calc(22% - 20px);
+    text-align: center;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .search-card .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .search-card .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .search-card .card-text {
+    margin-top: 5px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .search-card .card-buttons {
+    display: none;
+  }
+  
+  .search-card:hover .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+  }
+  
+  .search-card .card-buttons button {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #bbb;
+    color: #fff;
+    border: none;
+  }
+  
+  .search-card .card-buttons button:hover {
+    background-color: #888;
+  }
+  
+  /* Additional styles can be added as needed */
+  
